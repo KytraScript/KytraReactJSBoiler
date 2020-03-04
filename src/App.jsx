@@ -12,14 +12,14 @@ class App extends React.Component {
 
     render() {
         return (
-            <>
+            <div>
                 <Link to={'/'}>Home</Link>
                 <Switch>
                     <Route exact path={'/'}>
                         <Home/>
                     </Route>
                 </Switch>
-            </>
+            </div>
         );
     }
 }
